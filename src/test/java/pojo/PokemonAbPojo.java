@@ -33,6 +33,11 @@ public class PokemonAbPojo {
 
     private Map<String, String> species;
 
+    private Map sprites;
+
+    private List stats;
+
+
 
 
     public List<PokemonAbilitiesPojo> getAbilities() {
