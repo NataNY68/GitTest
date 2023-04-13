@@ -60,8 +60,8 @@ public class Pokemon {
                         .when().get(allUrl.get(i)).then().statusCode(200).extract().response();
                     PokemonAbPojo deserializedResp1 = response.as(PokemonAbPojo.class);
                 List <PokemonAbilitiesPojo> abilities = deserializedResp1.getAbilities();
-                System.out.println(abilities.toString());
-                Map<String, String> l=
+                System.out.println(abilities);
+                //Map<String, String> l=
 
             }
         } System.out.println(map);
